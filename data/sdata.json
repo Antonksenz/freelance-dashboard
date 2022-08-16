@@ -1,0 +1,1457 @@
+{
+    "added": "2022-08-12 17:57:26",
+    "main_chart_data": [
+        {
+            "date": "2022-07-30",
+            "servers": 11,
+            "roi": 1.563,
+            "change": 264.3,
+            "total_staked": 99000.0,
+            "price_data": 0.0382
+        },
+        {
+            "date": "2022-07-31",
+            "servers": 11,
+            "roi": -1.037,
+            "change": 164.9,
+            "total_staked": 99000.0,
+            "price_data": 0.0372
+        },
+        {
+            "date": "2022-08-01",
+            "servers": 11,
+            "roi": -0.073,
+            "change": 157.0,
+            "total_staked": 99436.7,
+            "price_data": 0.0375
+        },
+        {
+            "date": "2022-08-02",
+            "servers": 11,
+            "roi": 3.595,
+            "change": 194.6,
+            "total_staked": 99436.7,
+            "price_data": 0.0388
+        },
+        {
+            "date": "2022-08-03",
+            "servers": 11,
+            "roi": 7.085,
+            "change": 163.8,
+            "total_staked": 99436.7,
+            "price_data": 0.04
+        },
+        {
+            "date": "2022-08-04",
+            "servers": 11,
+            "roi": 4.785,
+            "change": 141.8,
+            "total_staked": 99436.7,
+            "price_data": 0.0391
+        },
+        {
+            "date": "2022-08-05",
+            "servers": 19,
+            "roi": 3.987,
+            "change": 220.3,
+            "total_staked": 170714.2,
+            "price_data": 0.0398
+        },
+        {
+            "date": "2022-08-06",
+            "servers": 19,
+            "roi": 2.848,
+            "change": 297.7,
+            "total_staked": 181355.0,
+            "price_data": 0.0397
+        },
+        {
+            "date": "2022-08-07",
+            "servers": 19,
+            "roi": 1.748,
+            "change": 304.6,
+            "total_staked": 181355.0,
+            "price_data": 0.0392
+        },
+        {
+            "date": "2022-08-08",
+            "servers": 19,
+            "roi": 2.248,
+            "change": 289.9,
+            "total_staked": 181355.0,
+            "price_data": 0.0393
+        },
+        {
+            "date": "2022-08-09",
+            "servers": 19,
+            "roi": -4.311,
+            "change": 321.4,
+            "total_staked": 181355.0,
+            "price_data": 0.0367
+        },
+        {
+            "date": "2022-08-10",
+            "servers": 21,
+            "roi": 0.411,
+            "change": 368.4,
+            "total_staked": 200377.0,
+            "price_data": 0.0383
+        },
+        {
+            "date": "2022-08-11",
+            "servers": 21,
+            "roi": -0.061,
+            "change": 322.8,
+            "total_staked": 200377.0,
+            "price_data": 0.0381
+        },
+        {
+            "date": "2022-08-12",
+            "servers": 21,
+            "roi": 1.779,
+            "change": 227.2,
+            "total_staked": 200377.0,
+            "price_data": 0.0387
+        }
+    ],
+    "server_data": [
+        {
+            "DP76": {
+                "chart_data": [
+                    {
+                        "earned": 8.9,
+                        "staked": 9522.0,
+                        "date": "2022-08-10"
+                    },
+                    {
+                        "earned": 15.6,
+                        "staked": 9522.0,
+                        "date": "2022-08-11"
+                    },
+                    {
+                        "earned": 10.8,
+                        "staked": 9522.0,
+                        "date": "2022-08-12"
+                    }
+                ],
+                "total_earned": 35.3,
+                "total_staked": 9522.0,
+                "age": 2,
+                "status": "Unknown"
+            }
+        },
+        {
+            "DP77": {
+                "chart_data": [
+                    {
+                        "earned": 8.8,
+                        "staked": 9500.0,
+                        "date": "2022-08-10"
+                    },
+                    {
+                        "earned": 15.6,
+                        "staked": 9500.0,
+                        "date": "2022-08-11"
+                    },
+                    {
+                        "earned": 10.8,
+                        "staked": 9500.0,
+                        "date": "2022-08-12"
+                    }
+                ],
+                "total_earned": 35.2,
+                "total_staked": 9500.0,
+                "age": 2,
+                "status": "Unknown"
+            }
+        },
+        {
+            "DP78": {
+                "chart_data": [
+                    {
+                        "earned": 7.5,
+                        "staked": 8277.5,
+                        "date": "2022-08-05"
+                    },
+                    {
+                        "earned": 15.2,
+                        "staked": 9545.0,
+                        "date": "2022-08-06"
+                    },
+                    {
+                        "earned": 16.0,
+                        "staked": 9545.0,
+                        "date": "2022-08-07"
+                    },
+                    {
+                        "earned": 15.3,
+                        "staked": 9545.0,
+                        "date": "2022-08-08"
+                    },
+                    {
+                        "earned": 16.9,
+                        "staked": 9545.0,
+                        "date": "2022-08-09"
+                    },
+                    {
+                        "earned": 18.6,
+                        "staked": 9545.0,
+                        "date": "2022-08-10"
+                    },
+                    {
+                        "earned": 15.6,
+                        "staked": 9545.0,
+                        "date": "2022-08-11"
+                    },
+                    {
+                        "earned": 10.8,
+                        "staked": 9545.0,
+                        "date": "2022-08-12"
+                    }
+                ],
+                "total_earned": 116.0,
+                "total_staked": 9545.0,
+                "age": 7,
+                "status": "Unknown"
+            }
+        },
+        {
+            "DP79": {
+                "chart_data": [
+                    {
+                        "earned": 8.2,
+                        "staked": 9000.0,
+                        "date": "2022-08-05"
+                    },
+                    {
+                        "earned": 15.7,
+                        "staked": 9545.0,
+                        "date": "2022-08-06"
+                    },
+                    {
+                        "earned": 16.0,
+                        "staked": 9545.0,
+                        "date": "2022-08-07"
+                    },
+                    {
+                        "earned": 15.3,
+                        "staked": 9545.0,
+                        "date": "2022-08-08"
+                    },
+                    {
+                        "earned": 16.9,
+                        "staked": 9545.0,
+                        "date": "2022-08-09"
+                    },
+                    {
+                        "earned": 18.6,
+                        "staked": 9545.0,
+                        "date": "2022-08-10"
+                    },
+                    {
+                        "earned": 15.6,
+                        "staked": 9545.0,
+                        "date": "2022-08-11"
+                    },
+                    {
+                        "earned": 10.8,
+                        "staked": 9545.0,
+                        "date": "2022-08-12"
+                    }
+                ],
+                "total_earned": 117.1,
+                "total_staked": 9545.0,
+                "age": 7,
+                "status": "Unknown"
+            }
+        },
+        {
+            "DP80": {
+                "chart_data": [
+                    {
+                        "earned": 8.2,
+                        "staked": 9000.0,
+                        "date": "2022-08-05"
+                    },
+                    {
+                        "earned": 15.7,
+                        "staked": 9545.0,
+                        "date": "2022-08-06"
+                    },
+                    {
+                        "earned": 16.0,
+                        "staked": 9545.0,
+                        "date": "2022-08-07"
+                    },
+                    {
+                        "earned": 15.3,
+                        "staked": 9545.0,
+                        "date": "2022-08-08"
+                    },
+                    {
+                        "earned": 16.9,
+                        "staked": 9545.0,
+                        "date": "2022-08-09"
+                    },
+                    {
+                        "earned": 18.6,
+                        "staked": 9545.0,
+                        "date": "2022-08-10"
+                    },
+                    {
+                        "earned": 15.6,
+                        "staked": 9545.0,
+                        "date": "2022-08-11"
+                    },
+                    {
+                        "earned": 10.8,
+                        "staked": 9545.0,
+                        "date": "2022-08-12"
+                    }
+                ],
+                "total_earned": 117.1,
+                "total_staked": 9545.0,
+                "age": 7,
+                "status": "Unknown"
+            }
+        },
+        {
+            "DP81": {
+                "chart_data": [
+                    {
+                        "earned": 7.6,
+                        "staked": 9000.0,
+                        "date": "2022-08-05"
+                    },
+                    {
+                        "earned": 15.7,
+                        "staked": 9545.0,
+                        "date": "2022-08-06"
+                    },
+                    {
+                        "earned": 16.0,
+                        "staked": 9545.0,
+                        "date": "2022-08-07"
+                    },
+                    {
+                        "earned": 15.3,
+                        "staked": 9545.0,
+                        "date": "2022-08-08"
+                    },
+                    {
+                        "earned": 16.9,
+                        "staked": 9545.0,
+                        "date": "2022-08-09"
+                    },
+                    {
+                        "earned": 18.6,
+                        "staked": 9545.0,
+                        "date": "2022-08-10"
+                    },
+                    {
+                        "earned": 15.6,
+                        "staked": 9545.0,
+                        "date": "2022-08-11"
+                    },
+                    {
+                        "earned": 10.8,
+                        "staked": 9545.0,
+                        "date": "2022-08-12"
+                    }
+                ],
+                "total_earned": 116.5,
+                "total_staked": 9545.0,
+                "age": 7,
+                "status": "Unknown"
+            }
+        },
+        {
+            "DP82": {
+                "chart_data": [
+                    {
+                        "earned": 8.8,
+                        "staked": 9000.0,
+                        "date": "2022-08-05"
+                    },
+                    {
+                        "earned": 15.7,
+                        "staked": 9545.0,
+                        "date": "2022-08-06"
+                    },
+                    {
+                        "earned": 16.0,
+                        "staked": 9545.0,
+                        "date": "2022-08-07"
+                    },
+                    {
+                        "earned": 15.3,
+                        "staked": 9545.0,
+                        "date": "2022-08-08"
+                    },
+                    {
+                        "earned": 16.9,
+                        "staked": 9545.0,
+                        "date": "2022-08-09"
+                    },
+                    {
+                        "earned": 18.6,
+                        "staked": 9545.0,
+                        "date": "2022-08-10"
+                    },
+                    {
+                        "earned": 15.6,
+                        "staked": 9545.0,
+                        "date": "2022-08-11"
+                    },
+                    {
+                        "earned": 10.9,
+                        "staked": 9545.0,
+                        "date": "2022-08-12"
+                    }
+                ],
+                "total_earned": 117.8,
+                "total_staked": 9545.0,
+                "age": 7,
+                "status": "Unknown"
+            }
+        },
+        {
+            "DP83": {
+                "chart_data": [
+                    {
+                        "earned": 8.8,
+                        "staked": 9000.0,
+                        "date": "2022-08-05"
+                    },
+                    {
+                        "earned": 15.7,
+                        "staked": 9545.0,
+                        "date": "2022-08-06"
+                    },
+                    {
+                        "earned": 16.0,
+                        "staked": 9545.0,
+                        "date": "2022-08-07"
+                    },
+                    {
+                        "earned": 15.3,
+                        "staked": 9545.0,
+                        "date": "2022-08-08"
+                    },
+                    {
+                        "earned": 16.9,
+                        "staked": 9545.0,
+                        "date": "2022-08-09"
+                    },
+                    {
+                        "earned": 18.6,
+                        "staked": 9545.0,
+                        "date": "2022-08-10"
+                    },
+                    {
+                        "earned": 15.6,
+                        "staked": 9545.0,
+                        "date": "2022-08-11"
+                    },
+                    {
+                        "earned": 10.9,
+                        "staked": 9545.0,
+                        "date": "2022-08-12"
+                    }
+                ],
+                "total_earned": 117.8,
+                "total_staked": 9545.0,
+                "age": 7,
+                "status": "Unknown"
+            }
+        },
+        {
+            "DP84": {
+                "chart_data": [
+                    {
+                        "earned": 8.8,
+                        "staked": 9000.0,
+                        "date": "2022-08-05"
+                    },
+                    {
+                        "earned": 15.7,
+                        "staked": 9545.0,
+                        "date": "2022-08-06"
+                    },
+                    {
+                        "earned": 16.0,
+                        "staked": 9545.0,
+                        "date": "2022-08-07"
+                    },
+                    {
+                        "earned": 15.3,
+                        "staked": 9545.0,
+                        "date": "2022-08-08"
+                    },
+                    {
+                        "earned": 16.9,
+                        "staked": 9545.0,
+                        "date": "2022-08-09"
+                    },
+                    {
+                        "earned": 18.6,
+                        "staked": 9545.0,
+                        "date": "2022-08-10"
+                    },
+                    {
+                        "earned": 15.6,
+                        "staked": 9545.0,
+                        "date": "2022-08-11"
+                    },
+                    {
+                        "earned": 10.9,
+                        "staked": 9545.0,
+                        "date": "2022-08-12"
+                    }
+                ],
+                "total_earned": 117.8,
+                "total_staked": 9545.0,
+                "age": 7,
+                "status": "Unknown"
+            }
+        },
+        {
+            "DP85": {
+                "chart_data": [
+                    {
+                        "earned": 8.8,
+                        "staked": 9000.0,
+                        "date": "2022-08-05"
+                    },
+                    {
+                        "earned": 15.7,
+                        "staked": 9545.0,
+                        "date": "2022-08-06"
+                    },
+                    {
+                        "earned": 16.0,
+                        "staked": 9545.0,
+                        "date": "2022-08-07"
+                    },
+                    {
+                        "earned": 15.3,
+                        "staked": 9545.0,
+                        "date": "2022-08-08"
+                    },
+                    {
+                        "earned": 16.9,
+                        "staked": 9545.0,
+                        "date": "2022-08-09"
+                    },
+                    {
+                        "earned": 18.6,
+                        "staked": 9545.0,
+                        "date": "2022-08-10"
+                    },
+                    {
+                        "earned": 15.6,
+                        "staked": 9545.0,
+                        "date": "2022-08-11"
+                    },
+                    {
+                        "earned": 10.9,
+                        "staked": 9545.0,
+                        "date": "2022-08-12"
+                    }
+                ],
+                "total_earned": 117.8,
+                "total_staked": 9545.0,
+                "age": 7,
+                "status": "Unknown"
+            }
+        },
+        {
+            "DP87": {
+                "chart_data": [
+                    {
+                        "earned": 16.4,
+                        "staked": 9000.0,
+                        "date": "2022-07-30"
+                    },
+                    {
+                        "earned": 15.0,
+                        "staked": 9000.0,
+                        "date": "2022-07-31"
+                    },
+                    {
+                        "earned": 14.3,
+                        "staked": 9032.1,
+                        "date": "2022-08-01"
+                    },
+                    {
+                        "earned": 17.7,
+                        "staked": 9032.1,
+                        "date": "2022-08-02"
+                    },
+                    {
+                        "earned": 14.9,
+                        "staked": 9032.1,
+                        "date": "2022-08-03"
+                    },
+                    {
+                        "earned": 12.9,
+                        "staked": 9032.1,
+                        "date": "2022-08-04"
+                    },
+                    {
+                        "earned": 14.0,
+                        "staked": 9032.1,
+                        "date": "2022-08-05"
+                    },
+                    {
+                        "earned": 15.7,
+                        "staked": 9545.0,
+                        "date": "2022-08-06"
+                    },
+                    {
+                        "earned": 16.0,
+                        "staked": 9545.0,
+                        "date": "2022-08-07"
+                    },
+                    {
+                        "earned": 15.3,
+                        "staked": 9545.0,
+                        "date": "2022-08-08"
+                    },
+                    {
+                        "earned": 16.9,
+                        "staked": 9545.0,
+                        "date": "2022-08-09"
+                    },
+                    {
+                        "earned": 18.6,
+                        "staked": 9545.0,
+                        "date": "2022-08-10"
+                    },
+                    {
+                        "earned": 15.6,
+                        "staked": 9545.0,
+                        "date": "2022-08-11"
+                    },
+                    {
+                        "earned": 10.9,
+                        "staked": 9545.0,
+                        "date": "2022-08-12"
+                    }
+                ],
+                "total_earned": 214.0,
+                "total_staked": 9545.0,
+                "age": 13,
+                "status": "Unknown"
+            }
+        },
+        {
+            "DP88": {
+                "chart_data": [
+                    {
+                        "earned": 16.4,
+                        "staked": 9000.0,
+                        "date": "2022-07-30"
+                    },
+                    {
+                        "earned": 15.0,
+                        "staked": 9000.0,
+                        "date": "2022-07-31"
+                    },
+                    {
+                        "earned": 14.3,
+                        "staked": 9032.1,
+                        "date": "2022-08-01"
+                    },
+                    {
+                        "earned": 17.7,
+                        "staked": 9032.1,
+                        "date": "2022-08-02"
+                    },
+                    {
+                        "earned": 14.9,
+                        "staked": 9032.1,
+                        "date": "2022-08-03"
+                    },
+                    {
+                        "earned": 12.9,
+                        "staked": 9032.1,
+                        "date": "2022-08-04"
+                    },
+                    {
+                        "earned": 14.0,
+                        "staked": 9032.1,
+                        "date": "2022-08-05"
+                    },
+                    {
+                        "earned": 15.7,
+                        "staked": 9545.0,
+                        "date": "2022-08-06"
+                    },
+                    {
+                        "earned": 16.0,
+                        "staked": 9545.0,
+                        "date": "2022-08-07"
+                    },
+                    {
+                        "earned": 15.3,
+                        "staked": 9545.0,
+                        "date": "2022-08-08"
+                    },
+                    {
+                        "earned": 16.9,
+                        "staked": 9545.0,
+                        "date": "2022-08-09"
+                    },
+                    {
+                        "earned": 18.6,
+                        "staked": 9545.0,
+                        "date": "2022-08-10"
+                    },
+                    {
+                        "earned": 15.6,
+                        "staked": 9545.0,
+                        "date": "2022-08-11"
+                    },
+                    {
+                        "earned": 10.2,
+                        "staked": 9545.0,
+                        "date": "2022-08-12"
+                    }
+                ],
+                "total_earned": 213.3,
+                "total_staked": 9545.0,
+                "age": 13,
+                "status": "Unknown"
+            }
+        },
+        {
+            "DP89": {
+                "chart_data": [
+                    {
+                        "earned": 17.1,
+                        "staked": 9000.0,
+                        "date": "2022-07-30"
+                    },
+                    {
+                        "earned": 15.0,
+                        "staked": 9000.0,
+                        "date": "2022-07-31"
+                    },
+                    {
+                        "earned": 14.3,
+                        "staked": 9032.7,
+                        "date": "2022-08-01"
+                    },
+                    {
+                        "earned": 17.7,
+                        "staked": 9032.7,
+                        "date": "2022-08-02"
+                    },
+                    {
+                        "earned": 14.9,
+                        "staked": 9032.7,
+                        "date": "2022-08-03"
+                    },
+                    {
+                        "earned": 12.9,
+                        "staked": 9032.7,
+                        "date": "2022-08-04"
+                    },
+                    {
+                        "earned": 14.0,
+                        "staked": 9032.7,
+                        "date": "2022-08-05"
+                    },
+                    {
+                        "earned": 15.7,
+                        "staked": 9545.0,
+                        "date": "2022-08-06"
+                    },
+                    {
+                        "earned": 16.0,
+                        "staked": 9545.0,
+                        "date": "2022-08-07"
+                    },
+                    {
+                        "earned": 15.3,
+                        "staked": 9545.0,
+                        "date": "2022-08-08"
+                    },
+                    {
+                        "earned": 16.9,
+                        "staked": 9545.0,
+                        "date": "2022-08-09"
+                    },
+                    {
+                        "earned": 18.6,
+                        "staked": 9545.0,
+                        "date": "2022-08-10"
+                    },
+                    {
+                        "earned": 15.6,
+                        "staked": 9545.0,
+                        "date": "2022-08-11"
+                    },
+                    {
+                        "earned": 10.8,
+                        "staked": 9545.0,
+                        "date": "2022-08-12"
+                    }
+                ],
+                "total_earned": 214.7,
+                "total_staked": 9545.0,
+                "age": 13,
+                "status": "Unknown"
+            }
+        },
+        {
+            "DP90": {
+                "chart_data": [
+                    {
+                        "earned": 17.1,
+                        "staked": 9000.0,
+                        "date": "2022-07-30"
+                    },
+                    {
+                        "earned": 15.0,
+                        "staked": 9000.0,
+                        "date": "2022-07-31"
+                    },
+                    {
+                        "earned": 14.3,
+                        "staked": 9032.7,
+                        "date": "2022-08-01"
+                    },
+                    {
+                        "earned": 17.7,
+                        "staked": 9032.7,
+                        "date": "2022-08-02"
+                    },
+                    {
+                        "earned": 14.9,
+                        "staked": 9032.7,
+                        "date": "2022-08-03"
+                    },
+                    {
+                        "earned": 12.9,
+                        "staked": 9032.7,
+                        "date": "2022-08-04"
+                    },
+                    {
+                        "earned": 14.0,
+                        "staked": 9032.7,
+                        "date": "2022-08-05"
+                    },
+                    {
+                        "earned": 15.7,
+                        "staked": 9545.0,
+                        "date": "2022-08-06"
+                    },
+                    {
+                        "earned": 16.0,
+                        "staked": 9545.0,
+                        "date": "2022-08-07"
+                    },
+                    {
+                        "earned": 15.3,
+                        "staked": 9545.0,
+                        "date": "2022-08-08"
+                    },
+                    {
+                        "earned": 16.9,
+                        "staked": 9545.0,
+                        "date": "2022-08-09"
+                    },
+                    {
+                        "earned": 18.6,
+                        "staked": 9545.0,
+                        "date": "2022-08-10"
+                    },
+                    {
+                        "earned": 15.6,
+                        "staked": 9545.0,
+                        "date": "2022-08-11"
+                    },
+                    {
+                        "earned": 10.8,
+                        "staked": 9545.0,
+                        "date": "2022-08-12"
+                    }
+                ],
+                "total_earned": 214.7,
+                "total_staked": 9545.0,
+                "age": 13,
+                "status": "Unknown"
+            }
+        },
+        {
+            "DP91": {
+                "chart_data": [
+                    {
+                        "earned": 17.1,
+                        "staked": 9000.0,
+                        "date": "2022-07-30"
+                    },
+                    {
+                        "earned": 15.0,
+                        "staked": 9000.0,
+                        "date": "2022-07-31"
+                    },
+                    {
+                        "earned": 14.3,
+                        "staked": 9032.7,
+                        "date": "2022-08-01"
+                    },
+                    {
+                        "earned": 17.7,
+                        "staked": 9032.7,
+                        "date": "2022-08-02"
+                    },
+                    {
+                        "earned": 14.9,
+                        "staked": 9032.7,
+                        "date": "2022-08-03"
+                    },
+                    {
+                        "earned": 12.9,
+                        "staked": 9032.7,
+                        "date": "2022-08-04"
+                    },
+                    {
+                        "earned": 14.0,
+                        "staked": 9032.7,
+                        "date": "2022-08-05"
+                    },
+                    {
+                        "earned": 15.7,
+                        "staked": 9545.0,
+                        "date": "2022-08-06"
+                    },
+                    {
+                        "earned": 16.0,
+                        "staked": 9545.0,
+                        "date": "2022-08-07"
+                    },
+                    {
+                        "earned": 15.3,
+                        "staked": 9545.0,
+                        "date": "2022-08-08"
+                    },
+                    {
+                        "earned": 16.9,
+                        "staked": 9545.0,
+                        "date": "2022-08-09"
+                    },
+                    {
+                        "earned": 16.5,
+                        "staked": 9545.0,
+                        "date": "2022-08-10"
+                    },
+                    {
+                        "earned": 15.6,
+                        "staked": 9545.0,
+                        "date": "2022-08-11"
+                    },
+                    {
+                        "earned": 10.8,
+                        "staked": 9545.0,
+                        "date": "2022-08-12"
+                    }
+                ],
+                "total_earned": 212.6,
+                "total_staked": 9545.0,
+                "age": 13,
+                "status": "Unknown"
+            }
+        },
+        {
+            "DP92": {
+                "chart_data": [
+                    {
+                        "earned": 17.1,
+                        "staked": 9000.0,
+                        "date": "2022-07-30"
+                    },
+                    {
+                        "earned": 15.0,
+                        "staked": 9000.0,
+                        "date": "2022-07-31"
+                    },
+                    {
+                        "earned": 14.3,
+                        "staked": 9032.7,
+                        "date": "2022-08-01"
+                    },
+                    {
+                        "earned": 17.7,
+                        "staked": 9032.7,
+                        "date": "2022-08-02"
+                    },
+                    {
+                        "earned": 14.9,
+                        "staked": 9032.7,
+                        "date": "2022-08-03"
+                    },
+                    {
+                        "earned": 12.9,
+                        "staked": 9032.7,
+                        "date": "2022-08-04"
+                    },
+                    {
+                        "earned": 14.0,
+                        "staked": 9032.7,
+                        "date": "2022-08-05"
+                    },
+                    {
+                        "earned": 15.7,
+                        "staked": 9545.0,
+                        "date": "2022-08-06"
+                    },
+                    {
+                        "earned": 16.0,
+                        "staked": 9545.0,
+                        "date": "2022-08-07"
+                    },
+                    {
+                        "earned": 15.2,
+                        "staked": 9545.0,
+                        "date": "2022-08-08"
+                    },
+                    {
+                        "earned": 16.9,
+                        "staked": 9545.0,
+                        "date": "2022-08-09"
+                    },
+                    {
+                        "earned": 18.6,
+                        "staked": 9545.0,
+                        "date": "2022-08-10"
+                    },
+                    {
+                        "earned": 15.6,
+                        "staked": 9545.0,
+                        "date": "2022-08-11"
+                    },
+                    {
+                        "earned": 10.8,
+                        "staked": 9545.0,
+                        "date": "2022-08-12"
+                    }
+                ],
+                "total_earned": 214.6,
+                "total_staked": 9545.0,
+                "age": 13,
+                "status": "Unknown"
+            }
+        },
+        {
+            "DP93": {
+                "chart_data": [
+                    {
+                        "earned": 17.1,
+                        "staked": 9000.0,
+                        "date": "2022-07-30"
+                    },
+                    {
+                        "earned": 15.0,
+                        "staked": 9000.0,
+                        "date": "2022-07-31"
+                    },
+                    {
+                        "earned": 14.3,
+                        "staked": 9032.7,
+                        "date": "2022-08-01"
+                    },
+                    {
+                        "earned": 17.7,
+                        "staked": 9032.7,
+                        "date": "2022-08-02"
+                    },
+                    {
+                        "earned": 14.9,
+                        "staked": 9032.7,
+                        "date": "2022-08-03"
+                    },
+                    {
+                        "earned": 12.9,
+                        "staked": 9032.7,
+                        "date": "2022-08-04"
+                    },
+                    {
+                        "earned": 14.0,
+                        "staked": 9032.7,
+                        "date": "2022-08-05"
+                    },
+                    {
+                        "earned": 15.7,
+                        "staked": 9545.0,
+                        "date": "2022-08-06"
+                    },
+                    {
+                        "earned": 16.0,
+                        "staked": 9545.0,
+                        "date": "2022-08-07"
+                    },
+                    {
+                        "earned": 15.2,
+                        "staked": 9545.0,
+                        "date": "2022-08-08"
+                    },
+                    {
+                        "earned": 16.9,
+                        "staked": 9545.0,
+                        "date": "2022-08-09"
+                    },
+                    {
+                        "earned": 18.6,
+                        "staked": 9545.0,
+                        "date": "2022-08-10"
+                    },
+                    {
+                        "earned": 15.6,
+                        "staked": 9545.0,
+                        "date": "2022-08-11"
+                    },
+                    {
+                        "earned": 10.8,
+                        "staked": 9545.0,
+                        "date": "2022-08-12"
+                    }
+                ],
+                "total_earned": 214.6,
+                "total_staked": 9545.0,
+                "age": 13,
+                "status": "Unknown"
+            }
+        },
+        {
+            "DP94": {
+                "chart_data": [
+                    {
+                        "earned": 33.9,
+                        "staked": 9000.0,
+                        "date": "2022-07-30"
+                    },
+                    {
+                        "earned": 15.0,
+                        "staked": 9000.0,
+                        "date": "2022-07-31"
+                    },
+                    {
+                        "earned": 14.3,
+                        "staked": 9049.6,
+                        "date": "2022-08-01"
+                    },
+                    {
+                        "earned": 17.7,
+                        "staked": 9049.6,
+                        "date": "2022-08-02"
+                    },
+                    {
+                        "earned": 14.9,
+                        "staked": 9049.6,
+                        "date": "2022-08-03"
+                    },
+                    {
+                        "earned": 12.9,
+                        "staked": 9049.6,
+                        "date": "2022-08-04"
+                    },
+                    {
+                        "earned": 14.0,
+                        "staked": 9049.6,
+                        "date": "2022-08-05"
+                    },
+                    {
+                        "earned": 15.7,
+                        "staked": 9545.0,
+                        "date": "2022-08-06"
+                    },
+                    {
+                        "earned": 16.0,
+                        "staked": 9545.0,
+                        "date": "2022-08-07"
+                    },
+                    {
+                        "earned": 15.3,
+                        "staked": 9545.0,
+                        "date": "2022-08-08"
+                    },
+                    {
+                        "earned": 16.9,
+                        "staked": 9545.0,
+                        "date": "2022-08-09"
+                    },
+                    {
+                        "earned": 18.6,
+                        "staked": 9545.0,
+                        "date": "2022-08-10"
+                    },
+                    {
+                        "earned": 14.9,
+                        "staked": 9545.0,
+                        "date": "2022-08-11"
+                    },
+                    {
+                        "earned": 10.9,
+                        "staked": 9545.0,
+                        "date": "2022-08-12"
+                    }
+                ],
+                "total_earned": 230.9,
+                "total_staked": 9545.0,
+                "age": 15,
+                "status": "Unknown"
+            }
+        },
+        {
+            "DP95": {
+                "chart_data": [
+                    {
+                        "earned": 37.6,
+                        "staked": 9000.0,
+                        "date": "2022-07-30"
+                    },
+                    {
+                        "earned": 15.0,
+                        "staked": 9000.0,
+                        "date": "2022-07-31"
+                    },
+                    {
+                        "earned": 14.3,
+                        "staked": 9053.3,
+                        "date": "2022-08-01"
+                    },
+                    {
+                        "earned": 17.7,
+                        "staked": 9053.3,
+                        "date": "2022-08-02"
+                    },
+                    {
+                        "earned": 14.9,
+                        "staked": 9053.3,
+                        "date": "2022-08-03"
+                    },
+                    {
+                        "earned": 12.9,
+                        "staked": 9053.3,
+                        "date": "2022-08-04"
+                    },
+                    {
+                        "earned": 14.0,
+                        "staked": 9053.3,
+                        "date": "2022-08-05"
+                    },
+                    {
+                        "earned": 15.7,
+                        "staked": 9545.0,
+                        "date": "2022-08-06"
+                    },
+                    {
+                        "earned": 16.0,
+                        "staked": 9545.0,
+                        "date": "2022-08-07"
+                    },
+                    {
+                        "earned": 15.3,
+                        "staked": 9545.0,
+                        "date": "2022-08-08"
+                    },
+                    {
+                        "earned": 16.9,
+                        "staked": 9545.0,
+                        "date": "2022-08-09"
+                    },
+                    {
+                        "earned": 18.6,
+                        "staked": 9545.0,
+                        "date": "2022-08-10"
+                    },
+                    {
+                        "earned": 15.0,
+                        "staked": 9545.0,
+                        "date": "2022-08-11"
+                    },
+                    {
+                        "earned": 10.8,
+                        "staked": 9545.0,
+                        "date": "2022-08-12"
+                    }
+                ],
+                "total_earned": 234.8,
+                "total_staked": 9545.0,
+                "age": 15,
+                "status": "Unknown"
+            }
+        },
+        {
+            "DP96": {
+                "chart_data": [
+                    {
+                        "earned": 37.6,
+                        "staked": 9000.0,
+                        "date": "2022-07-30"
+                    },
+                    {
+                        "earned": 15.0,
+                        "staked": 9000.0,
+                        "date": "2022-07-31"
+                    },
+                    {
+                        "earned": 14.3,
+                        "staked": 9053.3,
+                        "date": "2022-08-01"
+                    },
+                    {
+                        "earned": 17.7,
+                        "staked": 9053.3,
+                        "date": "2022-08-02"
+                    },
+                    {
+                        "earned": 14.9,
+                        "staked": 9053.3,
+                        "date": "2022-08-03"
+                    },
+                    {
+                        "earned": 12.9,
+                        "staked": 9053.3,
+                        "date": "2022-08-04"
+                    },
+                    {
+                        "earned": 14.0,
+                        "staked": 9053.3,
+                        "date": "2022-08-05"
+                    },
+                    {
+                        "earned": 15.7,
+                        "staked": 9545.0,
+                        "date": "2022-08-06"
+                    },
+                    {
+                        "earned": 16.0,
+                        "staked": 9545.0,
+                        "date": "2022-08-07"
+                    },
+                    {
+                        "earned": 15.3,
+                        "staked": 9545.0,
+                        "date": "2022-08-08"
+                    },
+                    {
+                        "earned": 16.9,
+                        "staked": 9545.0,
+                        "date": "2022-08-09"
+                    },
+                    {
+                        "earned": 18.6,
+                        "staked": 9545.0,
+                        "date": "2022-08-10"
+                    },
+                    {
+                        "earned": 15.0,
+                        "staked": 9545.0,
+                        "date": "2022-08-11"
+                    },
+                    {
+                        "earned": 10.8,
+                        "staked": 9545.0,
+                        "date": "2022-08-12"
+                    }
+                ],
+                "total_earned": 234.8,
+                "total_staked": 9545.0,
+                "age": 15,
+                "status": "Unknown"
+            }
+        },
+        {
+            "DP97": {
+                "chart_data": [
+                    {
+                        "earned": 37.0,
+                        "staked": 9000.0,
+                        "date": "2022-07-30"
+                    },
+                    {
+                        "earned": 15.0,
+                        "staked": 9000.0,
+                        "date": "2022-07-31"
+                    },
+                    {
+                        "earned": 14.3,
+                        "staked": 9052.6,
+                        "date": "2022-08-01"
+                    },
+                    {
+                        "earned": 17.7,
+                        "staked": 9052.6,
+                        "date": "2022-08-02"
+                    },
+                    {
+                        "earned": 14.9,
+                        "staked": 9052.6,
+                        "date": "2022-08-03"
+                    },
+                    {
+                        "earned": 12.9,
+                        "staked": 9052.6,
+                        "date": "2022-08-04"
+                    },
+                    {
+                        "earned": 14.0,
+                        "staked": 9052.6,
+                        "date": "2022-08-05"
+                    },
+                    {
+                        "earned": 15.7,
+                        "staked": 9545.0,
+                        "date": "2022-08-06"
+                    },
+                    {
+                        "earned": 16.0,
+                        "staked": 9545.0,
+                        "date": "2022-08-07"
+                    },
+                    {
+                        "earned": 15.2,
+                        "staked": 9545.0,
+                        "date": "2022-08-08"
+                    },
+                    {
+                        "earned": 16.9,
+                        "staked": 9545.0,
+                        "date": "2022-08-09"
+                    },
+                    {
+                        "earned": 18.6,
+                        "staked": 9545.0,
+                        "date": "2022-08-10"
+                    },
+                    {
+                        "earned": 12.2,
+                        "staked": 9545.0,
+                        "date": "2022-08-11"
+                    },
+                    {
+                        "earned": 10.9,
+                        "staked": 9545.0,
+                        "date": "2022-08-12"
+                    }
+                ],
+                "total_earned": 231.4,
+                "total_staked": 9545.0,
+                "age": 15,
+                "status": "Unknown"
+            }
+        }
+    ],
+    "current_roi": 1.779,
+    "treasury_data": 0.3077,
+    "treasury_matic": 4.469538533048946,
+    "price_data": 0.03875,
+    "price_matic": 0.9184,
+    "total_servers": 21,
+    "total_earned": 3438.7,
+    "total_staked": 200377.0
+}
