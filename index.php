@@ -1,5 +1,4 @@
 <?php 
     require 'core/JsonReader.php';
 
-    $obj = new JsonReader();
-    $obj->sayHello();
+    $obj = new JsonReader('data/sdata.json');
