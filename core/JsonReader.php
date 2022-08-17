@@ -21,8 +21,18 @@
             throw new Exception('Node <' . $nodeName . '> does not exist!');
         }
 
+        public function getNodesList(){
+            $nodesList= [];
+            foreach ($this->data['server_data'] as $node) {
+                array_push($nodesList, key($node));
+            }
+
+            return $nodesList;
+        }
+
         public function getAllData(){
             return $this->data;
         }
+
     }
 ?>
