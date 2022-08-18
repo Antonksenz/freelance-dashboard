@@ -4,8 +4,8 @@
     $jsonReaderObj = new JsonReader('data/sdata.json');
     $data = $jsonReaderObj->getAllData();
     $nodesList = $jsonReaderObj->getNodesList();
-
 ?>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -97,9 +97,9 @@
 
         <label>Nodes:</label> 
     
-    <select>
+    <select onchange="showSelectedNodesData(this);">
         <option>ALL</option>
-        <?php foreach($nodesList as $nodeName): ?>
+        <?php foreach(array_keys($nodesList) as $nodeName): ?>
             <option value="<?php echo $nodeName; ?>"><?php echo $nodeName; ?></option>
         <?php endforeach; ?>
     </select>
@@ -149,36 +149,36 @@
 
     <div id="second" style="display: none;">
         <div class="data1" style="margin-top: -35px;">
-                <label class="data">ROI (USD):</label>
-            </div>
-
-            <div class="data1_1" style="margin-top: -32px;">
-                <input class="data">
-            </div>
-
-            <div class="data2" style="margin-top: -32px;">
                 <label class="data">Total Earned:</label>
             </div>
 
+            <div class="data1_1" style="margin-top: -32px;">
+                <input id="single-total-earned" class="data">
+            </div>
+
+            <div class="data2" style="margin-top: -32px;">
+                <label class="data">Total Stacked:</label>
+            </div>
+
             <div class="data3" style="margin-top: -32px;">
-                <input class="data">
+                <input id="single-total-stacked" class="data">
             </div>
 
             <div class="data4" style="margin-top: -32px;">
-                <label class="data">Total Staked:</label>
+                <label class="data">Age:</label>
             </div>
 
             <div class="data5" style="margin-top: -32px;">
-                <input class="data">
+                <input id="single-age"  class="data">
             </div>
             
             <div class="data6" style="margin-top: -32px;">
-                <label class="data">Total Nodes:</label>
+                <label class="data">Status:</label>
             </div>
 
             <div class="data7" style="margin-left: 1285px;
                                       margin-top: -32px;">
-                <input class="data">
+                <input id="single-status" class="data">
             </div>
 
     </div>
@@ -186,5 +186,35 @@
     <div id="block_1"></div>
         
         </div>
+
+    <script language="JavaScript">
+        var nodesList = <?php echo $jsonReaderObj->getNodesList($json=true); ?>;
+
+        var pluralMeasurementDisplay = document.querySelector("#first");
+        var singleMeasurementDisplay = document.querySelector("#second");
+
+        function showSelectedNodesData(obj) {
+            
+            if (obj.value != 'ALL') {
+                let node = nodesList[obj.value];
+
+                pluralMeasurementDisplay.style.display = "none";
+                singleMeasurementDisplay.style.display = "block";
+               
+                let singleTotalEarned = document.querySelector("#single-total-earned");
+                let singleTotalStacked = document.querySelector("#single-total-stacked");
+                let singleAge = document.querySelector("#single-age");
+                let singleStatus = document.querySelector("#single-status");
+                
+                singleTotalEarned.value = node['total_earned'];
+                singleTotalStacked.value = node['total_staked'];
+                singleAge.value = node['age'];
+                singleStatus.value = node['status'];
+            } else {
+                pluralMeasurementDisplay.style.display = "block";
+                singleMeasurementDisplay.style.display = "none";
+            }
+        }
+    </script>
 </body>
 </html>

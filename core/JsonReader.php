@@ -21,12 +21,15 @@
             throw new Exception('Node <' . $nodeName . '> does not exist!');
         }
 
-        public function getNodesList(){
+        public function getNodesList($json=false){
             $nodesList= [];
-            foreach ($this->data['server_data'] as $node) {
-                array_push($nodesList, key($node));
+            foreach ($this->data['server_data'] as $key => $node) {
+                $nodesList[key($node)] = $node[key($node)];
             }
 
+            if ($json) {
+                return json_encode($nodesList);
+            }
             return $nodesList;
         }
 
