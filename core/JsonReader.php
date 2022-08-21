@@ -33,6 +33,18 @@
             return $nodesList;
         }
 
+        public function getMainChartDateByField($fieldName){
+            $mainChartData = $this->data['main_chart_data'];
+            $selectedData = [];
+
+            foreach ($mainChartData as $chart){
+                array_push($selectedData, $chart[$fieldName]);
+            }
+
+            return json_encode($selectedData);
+        }
+
+
         public function getAllData(){
             return $this->data;
         }
