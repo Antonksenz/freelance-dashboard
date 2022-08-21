@@ -1,1 +1,1 @@
-# freelance-dashboard
+# This script has an opportunity to build some charts using prepared data from json file. The freelance project. Has been Finished.
