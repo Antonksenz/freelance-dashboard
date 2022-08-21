@@ -343,7 +343,7 @@
 
         <label id="selector">Nodes:</label> 
     
-    <select onchange="showSelectedNodesData(this);">
+    <select>
         <option>ALL</option>
         <?php foreach(array_keys($nodesList) as $nodeName): ?>
             <option value="<?php echo $nodeName; ?>"><?php echo $nodeName; ?></option>
@@ -493,71 +493,86 @@
             <div id = "container_2"></div>
       
             <script language = "JavaScript">
-                $(document).ready(function() {
-
-                var title = {
-                text: 'Main_data'   
-                };
-
-                var yAxis = {
-                title: {
-                    text: ''
-                },
-                
-                plotLines: [{
-                    value: 0,
-                    width: 1,
-                    color: '#808080'
-                }]
-                }; 
-
-                var tooltip = {
-                valueSuffix: ''
-                }
-
-                var legend = {
-                layout: 'vertical',
-                align: 'right',
-                verticalAlign: 'middle',
-                borderWidth: 0
-                };
-
-                var series = [
-                {
-                    name: 'Earned',
-                    data: <?php echo $jsonReaderObj->getMainChartDateByField('change'); ?>,
-                    type: 'column'
-                }, 
-                {
-                    name: 'Staked',
-                    data: <?php echo $jsonReaderObj->getMainChartDateByField('servers'); ?>
-                }, 
-                ];
-                var json = {}; 
-                json.title = title;
-                json.yAxis = yAxis;
-                json.tooltip = tooltip;
-                json.legend = legend;
-                json.series = series;
-
-                $('#container_2').highcharts(json);
-            });
+               
             </script>
     </div>
         
         </div>
 
     <script language="JavaScript">
-        var nodesList = <?php echo $jsonReaderObj->getNodesList($json=true); ?>;
+        function getNodeChartData(node) {
+            let chartData = node['chart_data'];
+            let preparedChartData = {
+                'earned': [],
+                'staked': []
+            }
 
+            for (let i = 0; i < chartData.length; i++) {
+                preparedChartData['earned'].push(chartData[i]['earned']);
+                preparedChartData['staked'].push(chartData[i]['staked']);
+            }
+
+            return preparedChartData;
+        }
+
+        function buildNodeChart(earned, staked) {
+            var title = {
+        text: 'Main_data'   
+        };
+        var yAxis = {
+        title: {
+            text: ''
+        },
+
+        plotLines: [{
+            value: 0,
+            width: 1,
+            color: '#808080'
+        }]
+        }; 
+
+        var tooltip = {
+        valueSuffix: ''
+        }
+
+        var legend = {
+        layout: 'vertical',
+        align: 'right',
+        verticalAlign: 'middle',
+        borderWidth: 0
+        };
+
+        var series = [
+        {
+            name: 'Earned',
+            data: earned,
+            type: 'column'
+        }, 
+        {
+            name: 'Staked',
+            data:  staked
+        }, 
+        ];
+        var json = {}; 
+        json.title = title;
+        json.yAxis = yAxis;
+        json.tooltip = tooltip;
+        json.legend = legend;
+        json.series = series;
+
+        $('#container_2').highcharts(json);
+        }
+
+        $(document).ready(function() {
+        var nodesList = <?php echo $jsonReaderObj->getNodesList($json=true); ?>;
         var pluralMeasurementDisplay = document.querySelector("#first");
         var singleMeasurementDisplay = document.querySelector("#second");
 
-        function showSelectedNodesData(obj) {
-            
-            if (obj.value != 'ALL') {
-                let node = nodesList[obj.value];
-                console.dir(node);
+        $('select').on('change', function(event) {
+            if (this.value != 'ALL') {
+                let node = nodesList[this.value];
+                let nodeChartData = getNodeChartData(node);
+
                 pluralMeasurementDisplay.style.display = "none";
                 singleMeasurementDisplay.style.display = "block";
                
@@ -570,11 +585,14 @@
                 singleTotalStacked.value = node['total_staked'] + " $DATA";
                 singleAge.value = node['age'] + " Days";
                 singleStatus.value = node['status'];
+
+                buildNodeChart(nodeChartData['earned'], nodeChartData['staked']);
             } else {
                 pluralMeasurementDisplay.style.display = "block";
                 singleMeasurementDisplay.style.display = "none";
             }
-        }
+        })
+        });
     </script>
 </body>
 </html>

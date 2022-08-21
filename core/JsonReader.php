@@ -11,9 +11,24 @@
             $this->data = json_decode($fileContent, $assoc = true);
         }
 
-        public function getDataByNodeName($nodeName){
+        public function getDataByNodeName($nodeName, $chartData = false, $json = true){
+            $preparedChartData = [
+                'earned' => [],
+                'stacked' => []
+            ];
+
             foreach ($this->data['server_data'] as $node) {
                 if (array_key_exists($nodeName, $node)){
+                    if ($chartData) {
+                        foreach($node['chart_data'] as $chartPoint) {
+                            array_push($preparedChartData['earned'], $chartPoint['earned']);
+                            array_push($preparedChartData['stacked'], $chartPoint['stacked']);
+                        }
+
+                        if ($json) {
+                            return json_encode($preparedChartData);
+                        }
+                    }
                     return $node[$nodeName];
                 }
             }
