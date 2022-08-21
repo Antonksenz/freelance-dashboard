@@ -13,6 +13,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
 
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src = "https://code.highcharts.com/highcharts.js"></script>
     <style type="text/css">
             h1 {
                 margin-left: 40px;
@@ -20,7 +22,7 @@
                 color: white;
             }
 
-            label {
+            #selector {
                 position: relative;
                 margin-left: 42px;
                 font-size: 20px;
@@ -37,56 +39,300 @@
 
             .data {
                 display: flex;
-                margin-bottom: 10px;
+                margin-bottom: 15px;
+                background: none;
+                color: white;
+                border: none;
+                font-size: 20px;
+                width: 180px;
+                outline: none;
+                white-space: pre;
+            }
+
+            .outline_line_1 {
+                display: flex;
+                margin-bottom: 8px;
+                background: none;
+                color: rgb(54, 60, 150);
+                border: none;
+                font-size: 20px;
+                width: 180px;
+                outline: none;
+            }
+
+            .outline_line_2 {
+                background: none;
+                color: rgb(54, 60, 150);
+                border: none;
+                font-size: 20px;
+                width: 270px;
+                outline: none;
+                margin-top: 4px;
             }
 
             .data1 {
-                margin-left: 240px;
+                margin-left: 282px;
                 margin-top: -55px;
+                font-size: 20px;
+                
             }
 
-            .data1_1 {
-                margin-left: 385px;
-                margin-top: -55px;
+            .data_1 {
+                background: none;
+                color: white;
+                border: none;
+                font-size: 20px;
+                width: 180px;
+                outline: none;
+                white-space: pre;
+            }
+
+            .outline_row_1 {
+                margin-left: 390px;
+                margin-top: -59px;
             }
 
             .data2 {
-                margin-left: 525px;
-                margin-top: -55px;
+                margin-left: 500px;
+                margin-top: -63px;
             }
 
-            .data3 {
-                margin-left: 680px;
-                margin-top: -32px;
+            .outline_row_2 {
+                margin-left: 625px;
+                margin-top: -37.5px;
             }
 
             .data4 {
-                margin-left: 820px;
-                margin-top: -55px;
+                margin-left: 910px;
+                margin-top: -62px;
             }
 
-            .data5 {
-                margin-left: 985px;
-                margin-top: -55px;
+            .outline_row_3 {
+                margin-left: 1040px;
+                margin-top: -60px;
             }
 
             .data6 {
-                margin-left: 1125px;
-                margin-top: -55px;
+                margin-left: 1200px;
+                margin-top: -63px;
             }
 
-            .data7 {
-                margin-left: 1295px;
-                margin-top: -55px;
+            .outline_row_4 {
+                margin-left: 1340px;
+                margin-top: -59px;
             }
 
-            #block_1 {
-                height: 425px;
-                margin: 42px;
-                background-color: lightgray;
-                position: relative;
-                top: 4px;
+            #container {
+                    width: 550px;
+                    height: 400px;
+                    margin: 20px auto;
+                }
+            
+            #container_2 {
+                width: 550px;
+                height: 400px;
+                margin: 20px auto;
             }
+
+            #second .data1 {
+                margin-left: 282px;
+                margin-top: -35px;
+                font-size: 20px;
+                
+            }
+
+            #second .outline_row_1 {
+                margin-left: 400px;
+                margin-top: -39px;
+            }
+
+            #second .data2 {
+                margin-left: 540px;
+                margin-top: -33px;
+            }
+
+            #second .outline_row_2 {
+                margin-left: 665px;
+                margin-top: -38px;
+            }
+
+            #second .data4 {
+                margin-left: 800px;
+                margin-top: -34px;
+            }
+
+            #second .outline_row_3 {
+                margin-left: 850px;
+                margin-top: -37px;
+            }
+
+            #second .data6 {
+                margin-left: 945px;
+                margin-top: -33px;
+            }
+
+            #second .outline_row_4 {
+                margin-left: 1010px;
+                margin-top: -38px;
+            }
+
+
+            @media screen and (max-width: 1350px){
+                .data{
+                    font-size: 15px;  
+                }
+
+                .data1{
+                    font-size: 15px; 
+                    margin-top: -51px; 
+                }
+
+                #second .data1 {
+                    margin-left: 282px;
+                    margin-top: -35px;
+                    font-size: 15px;  
+                }
+
+                .data2{
+                    margin-top: -49px; 
+                }
+
+                #second .data2{
+                    margin-left: 470px;
+                    margin-top: -26px; 
+                }
+
+                .outline_row_1 {
+                    margin-left: 365px;
+                    margin-top: -48px;
+                }
+
+                #second .outline_row_1 {
+                    margin-left: 375px;
+                    margin-top: -32px;
+                }
+
+                .outline_row_2 {
+                    margin-left: 597px;
+                    margin-top: -29.5px;
+                }
+
+                #second .outline_row_2 {
+                    margin-left: 570px;
+                    margin-top: -32px;
+                }
+
+                .data4 {
+                    margin-left: 795px;
+                    margin-top: -49px;
+                }
+
+                #second .data4 {
+                    margin-left: 670px;
+                    margin-top: -26px;
+                }
+
+                .outline_row_3 {
+                    margin-left: 895px;
+                    margin-top: -48px;
+                }
+
+                #second .outline_row_3 {
+                    margin-left: 715px;
+                    margin-top: -32px;
+                }
+
+                .data6 {
+                    margin-left: 1005px;
+                    margin-top: -49px;
+                }
+
+                #second .data6 {
+                    margin-left: 780px;
+                    margin-top: -26px;
+                }
+
+                .outline_row_4 {
+                    margin-left: 1110px;
+                    margin-top: -47px;
+                }
+
+                #second .outline_row_4 {
+                    margin-left: 840px;
+                    margin-top: -31px;
+                }
+
+                .data_1{
+                    font-size: 15px;  
+                }
+
+                .outline_line_1 {
+                    font-size: 13px;  
+                }
+
+                .outline_line_2 {
+                    font-size: 13px;  
+                }
+
+                #container {
+                    position: absolute;
+                    left: 30%;
+                }
+
+                #container_2 {
+                    position: absolute;
+                    left: 30%;
+                }
+            }
+
+            @media screen and (max-width: 950px){
+                #container {
+                    position: absolute;
+                    left: 40%;
+                }
+
+                #container_2 {
+                    position: absolute;
+                    left: 40%;
+                }
+            }
+
+            @media screen and (max-width: 650px){
+                #container {
+                    position: absolute;
+                    left: 50%;
+                }
+
+                #container_2 {
+                    position: absolute;
+                    left: 50%;
+                }
+            }
+
+            @media screen and (max-width: 500px){
+                #container {
+                    position: absolute;
+                    left: 70%;
+                }
+
+                #container_2 {
+                    position: absolute;
+                    left: 70%;
+                }
+            }
+
+            @media screen and (max-width: 330px){
+                #container {
+                    position: absolute;
+                    left: 100%;
+                }
+
+                #container_2 {
+                    position: absolute;
+                    left: 100%;
+                }
+            }
+
     </style>
 
 
@@ -95,7 +341,7 @@
 
         <h1>DASHBOARD AT "<?php echo $data['added']; ?>"</h1>
 
-        <label>Nodes:</label> 
+        <label id="selector">Nodes:</label> 
     
     <select onchange="showSelectedNodesData(this);">
         <option>ALL</option>
@@ -111,18 +357,18 @@
                 <label class="data_1">Treasury:</label>
             </div>
 
-            <div class="data1_1">
-                <input class="data" value="<?php echo $data['current_roi']; ?>">
-                <input class="data_1" value="<?php echo $data['treasury_data']; ?>">
+            <div class="outline_row_1">
+                <input class="outline_line_1" readonly value="<?php echo $data['current_roi']; ?> %">
+                <input class="outline_line_2" readonly value="<?php echo $data['treasury_data']; ?> % $DATA">
             </div>
 
             <div class="data2">
-                <label class="data">Total Earned:</label>
+                <label class="data" st>Total Earned:</label>
             </div>
 
-            <div class="data3">
-                <input class="data" value="<?php echo $data['total_earned']; ?>">
-                <input class="data_1" value="<?php echo $data['treasury_matic']; ?>">
+            <div class="outline_row_2">
+                <input class="outline_line_1" readonly value="<?php echo $data['total_earned']; ?> $DATA">
+                <input class="outline_line_2" readonly value="<?php echo $data['treasury_matic']; ?> % $MATIC">
             </div>
 
             <div class="data4">
@@ -130,9 +376,9 @@
                 <label class="data_1">$DATA Price:</label>
             </div>
 
-            <div class="data5">
-                <input class="data" value="<?php echo $data['total_staked']; ?>">
-                <input class="data_1" value="<?php echo $data['price_data']; ?>">
+            <div class="outline_row_3">
+                <input class="outline_line_1" readonly value="<?php echo $data['total_staked']; ?> $DATA">
+                <input class="outline_line_2" readonly value="<?php echo $data['price_data']; ?> USD">
             </div>
             
             <div class="data6">
@@ -140,50 +386,164 @@
                 <label class="data_1">$MATIC Price:</label>
             </div>
 
-            <div class="data7">
-                <input class="data" value="<?php echo count($data['server_data']); ?>">
-                <input class="data_1" value="<?php echo $data['price_matic']; ?>">
+            <div class="outline_row_4">
+                <input class="outline_line_1" readonly value="<?php echo count($data['server_data']); ?>">
+                <input class="outline_line_2" style="width: 180;" readonly value="<?php echo $data['price_matic']; ?> USD">
             </div>
-            
+
+            <div id = "container"></div>
+      
+            <script language = "JavaScript">
+                $(document).ready(function() {
+
+                var title = {
+                text: 'Main_data'   
+                };
+
+                var yAxis = {
+                title: {
+                    text: ''
+                },
+                
+                plotLines: [{
+                    value: 0,
+                    width: 1,
+                    color: '#808080'
+                }]
+                }; 
+
+                var tooltip = {
+                valueSuffix: ''
+                }
+
+                var legend = {
+                layout: 'vertical',
+                align: 'right',
+                verticalAlign: 'middle',
+                borderWidth: 0
+                };
+
+                var series = [
+                {
+                    name: 'Earned',
+                    data: <?php echo $jsonReaderObj->getMainChartDateByField('change'); ?>,
+                    type: 'column'
+                }, 
+                {
+                    name: 'Servers',
+                    data: <?php echo $jsonReaderObj->getMainChartDateByField('servers'); ?>
+                }, 
+                {
+                    name: 'Staked',
+                    data: <?php echo $jsonReaderObj->getMainChartDateByField('total_staked'); ?>
+                }, 
+                {
+                    name: 'Price',
+                    data: <?php echo $jsonReaderObj->getMainChartDateByField('price_data'); ?>
+                }
+                ];
+                var json = {}; 
+                json.title = title;
+                json.yAxis = yAxis;
+                json.tooltip = tooltip;
+                json.legend = legend;
+                json.series = series;
+
+                $('#container').highcharts(json);
+            });
+            </script>
+   <script>
+
+</script>
     </div>
 
     <div id="second" style="display: none;">
-        <div class="data1" style="margin-top: -35px;">
+        <div class="data1">
                 <label class="data">Total Earned:</label>
             </div>
 
-            <div class="data1_1" style="margin-top: -32px;">
-                <input id="single-total-earned" class="data">
+            <div class="outline_row_1">
+                <input id="single-total-earned" readonly class="outline_line_1">
             </div>
 
-            <div class="data2" style="margin-top: -32px;">
+            <div class="data2">
                 <label class="data">Total Stacked:</label>
             </div>
 
-            <div class="data3" style="margin-top: -32px;">
-                <input id="single-total-stacked" class="data">
+            <div class="outline_row_2">
+                <input id="single-total-stacked" readonly class="outline_line_1">
             </div>
 
-            <div class="data4" style="margin-top: -32px;">
+            <div class="data4">
                 <label class="data">Age:</label>
             </div>
 
-            <div class="data5" style="margin-top: -32px;">
-                <input id="single-age"  class="data">
+            <div class="outline_row_3">
+                <input id="single-age" readonly class="outline_line_1">
             </div>
             
-            <div class="data6" style="margin-top: -32px;">
+            <div class="data6">
                 <label class="data">Status:</label>
             </div>
 
-            <div class="data7" style="margin-left: 1285px;
-                                      margin-top: -32px;">
-                <input id="single-status" class="data">
+            <div class="outline_row_4">
+                <input id="single-status" readonly class="outline_line_1">
             </div>
 
-    </div>
+            <div id = "container_2"></div>
+      
+            <script language = "JavaScript">
+                $(document).ready(function() {
 
-    <div id="block_1"></div>
+                var title = {
+                text: 'Main_data'   
+                };
+
+                var yAxis = {
+                title: {
+                    text: ''
+                },
+                
+                plotLines: [{
+                    value: 0,
+                    width: 1,
+                    color: '#808080'
+                }]
+                }; 
+
+                var tooltip = {
+                valueSuffix: ''
+                }
+
+                var legend = {
+                layout: 'vertical',
+                align: 'right',
+                verticalAlign: 'middle',
+                borderWidth: 0
+                };
+
+                var series = [
+                {
+                    name: 'Earned',
+                    data: <?php echo $jsonReaderObj->getMainChartDateByField('change'); ?>,
+                    type: 'column'
+                }, 
+                {
+                    name: 'Staked',
+                    data: <?php echo $jsonReaderObj->getMainChartDateByField('servers'); ?>
+                }, 
+                ];
+                var json = {}; 
+                json.title = title;
+                json.yAxis = yAxis;
+                json.tooltip = tooltip;
+                json.legend = legend;
+                json.series = series;
+
+                $('#container_2').highcharts(json);
+            });
+            </script>
+    </div>
         
         </div>
 
@@ -197,7 +557,7 @@
             
             if (obj.value != 'ALL') {
                 let node = nodesList[obj.value];
-
+                console.dir(node);
                 pluralMeasurementDisplay.style.display = "none";
                 singleMeasurementDisplay.style.display = "block";
                
@@ -206,9 +566,9 @@
                 let singleAge = document.querySelector("#single-age");
                 let singleStatus = document.querySelector("#single-status");
                 
-                singleTotalEarned.value = node['total_earned'];
-                singleTotalStacked.value = node['total_staked'];
-                singleAge.value = node['age'];
+                singleTotalEarned.value = node['total_earned'] + " $DATA";
+                singleTotalStacked.value = node['total_staked'] + " $DATA";
+                singleAge.value = node['age'] + " Days";
                 singleStatus.value = node['status'];
             } else {
                 pluralMeasurementDisplay.style.display = "block";
